@@ -55,7 +55,7 @@ class Category extends StatelessWidget {
     // TODO: Build the custom widget here, referring to the Specs.
     return Material(
         child: Container(
-          color: Colors.transparent,
+          color: Colors.green[100],
           height: _height,
           child: Padding(
               padding: EdgeInsets.all(_padding),
