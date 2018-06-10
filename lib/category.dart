@@ -57,14 +57,12 @@ class Category extends StatelessWidget {
         child: Container(
           color: Colors.transparent,
           height: _height,
-          decoration: new BoxDecoration(
-              borderRadius: new BorderRadius.all(
-                  new Radius.circular(_radius)
-              ),
-          ),
           child: Padding(
               padding: EdgeInsets.all(_padding),
               child: InkWell(
+                borderRadius: new BorderRadius.all(
+                    new Radius.circular(_radius)
+                ),
                 splashColor: this.color,
                 highlightColor: this.color,
                 // We can use either the () => function() or the () { function(); }
