@@ -30,7 +30,11 @@ class UnitConverterApp extends StatelessWidget {
         backgroundColor: Colors.green[100],
         body: Center(
           // TODO: Determine what properties you'll need to pass into the widget
-          child: Category(_categoryName, _categoryColor, _categoryIcon),
+          child: Category(
+              name: _categoryName,
+              color: _categoryColor,
+              iconLocation: _categoryIcon,
+          ),
         ),
       ),
     );
