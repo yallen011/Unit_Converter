@@ -39,8 +39,8 @@ class Category extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
+      color: Colors.transparent,
       child: Container(
-        color: Colors.green[100],
         height: _height,
         child: Padding(
           padding: EdgeInsets.all(_padding),
